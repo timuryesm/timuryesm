@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @timuryesm
 - 👀 I’m interested in Software Development
-- 🌱 I’m currently learning Git
+- 🌱 I’m currently learning The Web Developer Bootcamp 2022
 - 📫 LinkedIn: linkedin.com/in/timuryesm
 
 <!---
