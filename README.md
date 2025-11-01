@@ -9,10 +9,10 @@ I’m currently focused on expanding my full-stack portfolio and exploring appli
 
 ### 🚀 Highlights
 
-- Built automation solutions that improved business cash flow, performance, and customer communication  [oai_citation:1‡Timur Yesmukhan RES.pdf](sediment://file_000000000fa871f59a1ba95414e04d13)
-- Delivered end-to-end CRM transitions for 30+ clients with a 98% satisfaction rate  [oai_citation:2‡Timur Yesmukhan RES.pdf](sediment://file_000000000fa871f59a1ba95414e04d13)
-- Built Telegram automation bot triggered by CRM events & follow-up logic  [oai_citation:3‡Timur Yesmukhan RES.pdf](sediment://file_000000000fa871f59a1ba95414e04d13)
-- Developed dashboards and data pipelines improving analytics speed & accuracy  [oai_citation:4‡Timur Yesmukhan RES.pdf](sediment://file_000000000fa871f59a1ba95414e04d13)
+- Built automation solutions that improved business cash flow, performance, and customer communication
+- Delivered end-to-end CRM transitions for 30+ clients with a 98% satisfaction rate
+- Built Telegram automation bot triggered by CRM events & follow-up logic
+- Developed dashboards and data pipelines improving analytics speed & accuracy
 
 ---
 
