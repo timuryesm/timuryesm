@@ -1,77 +1,59 @@
-### Hi, I'm Timur 👋  
-Full-Stack Developer | ML & Computer Vision Student | Automation Engineer
+# Hi, I'm Timur 👋  
+**Full-Stack Developer | Applied Machine Learning & Computer Vision**
 
-I'm a software engineer with hands-on experience in business automation and backend development, now expanding into applied machine learning and computer vision.
-
-Recently completed my B.Sc. in Computer Science at York University, and now I'm focused on delivering two end-to-end capstone projects demonstrating practical ML skills, problem-solving, and model deployment.
+I am a software engineer (York University B.Sc. CS) specializing in bridging the gap between backend automation and machine learning. I focus on building end-to-end pipelines—from data ingestion and model training to interactive web deployment.
 
 ---
 
-### 🚀 Working On
+### 🚀 Featured Projects
 
-- 📊 **Machine Learning Capstone** — full data science pipeline:
-  - Problem framing, data exploration & visualization
-  - Model development & comparison
-  - Hyperparameter tuning & evaluation
-  - Business use-case understanding & communication
-  - Deployment & documentation
+#### 🏀 [NBA Win-Prediction Engine](https://github.com/timuryesm/nba-intensity-analysis)
+*A full-stack ML project predicting season win totals using 5 years of historical efficiency data.*
+- **Tech:** Python, Scikit-Learn, Streamlit, NBA API, Plotly.
+- **Highlights:** Features a live interactive dashboard, automated data extraction pipeline, and an MAE of ~2.8 wins.
+- **Links:** [Live Dashboard](https://nba-intensity-analysis-timuryesm.streamlit.app/) | [Project Presentation](https://timuryesm.github.io/nba-intensity-analysis/)
 
-- 🩺 **Computer Vision Capstone — GI Cancer Detection**
-  - CNNs, Vision Transformers, Transfer Learning
-  - Handling imbalanced datasets
-  - Sensitivity, specificity, recall, precision, F1
-  - Balancing techniques (oversampling, SMOTE, ADASYN)
-  - Comparing architectures & real-world implications
+#### 🩺 [GI Cancer Detection (Computer Vision Capstone)](https://github.com/timuryesm/gi-cancer-classification)
+*Deep Learning system for gastrointestinal pathology classification.*
+- **Tech:** PyTorch, Vision Transformers (ViT), CNNs, Transfer Learning.
+- **Highlights:** Solved extreme class imbalance using SMOTE/Oversampling; achieved high sensitivity/recall for medical diagnostic reliability.
+- **Focus:** Comparing architectural performance between traditional CNNs and modern Transformers.
 
-- 📁 Recovering & organizing selected past work (Bitrix automation scripts)  
-  *(will publish simplified versions once collected and anonymized)*
+#### 📊 [Business Intelligence ML Capstone](https://github.com/timuryesm/ml-business-capstone)
+*End-to-end data science pipeline focusing on business use-case interpretations.*
+- **Tech:** Pandas, Scikit-Learn, Hyperparameter Tuning (GridSearch/Optuna).
+- **Process:** Exploratory Data Analysis (EDA) → Feature Engineering → Model Comparison → Business Insights.
 
----
-
-### 🎯 Goals for Nov-Dec 2025
-
-- ✅ Complete **ML Capstone**
-- ✅ Complete **Computer Vision Capstone (GI pathology classification)**
-- 📄 Publish detailed READMEs, diagrams, and Jupyter notebooks
-- 📊 Present model results & business interpretations
-- 🤖 Start building ML deployment skills (FastAPI / Streamlit / HuggingFace Spaces)
-- 🌐 Publish a personal portfolio page showcasing projects
+#### 🤖 [Bitrix24 Automation Showcase](https://github.com/timuryesm/bitrix-automation)
+*A collection of production-grade scripts for business process automation.*
+- **Tech:** PHP, Node.js, REST APIs, Telegram Bot API.
+- **Impact:** Automated CRM workflows and communication triggers for enterprise-level efficiency.
 
 ---
 
-### 📂 Featured Projects (In Progress)
+### 🛠️ Tech Stack
 
-- 🧠 **Machine Learning Capstone**
-  *End-to-end ML solution with EDA → models → tuning → business insights*
-
-- 🩺 **Gastrointestinal Cancer Classification (CV Capstone)**
-  *CNN, ViT, Transfer Learning, imbalance handling, evaluation & comparison*
-
-- (Coming Soon) **Bitrix Automation Showcase (open-source version)**  
-  *(Once previous project files are retrieved, cleaned & anonymized)*
-
----
-
-### Tech Stack
-
-**ML & CV:**  
-`Python` `NumPy` `Pandas` `Matplotlib` `Scikit-Learn` `PyTorch` `OpenCV`
+**AI & Data Science:**  
+`Python` `PyTorch` `NumPy` `Pandas` `Scikit-Learn` `OpenCV` `Matplotlib` `Plotly`
 
 **Backend & Automation:**  
-`PHP` `Node.js` `REST APIs` `Bitrix24 API` `Telegram Bots`
+`Node.js` `PHP` `REST APIs` `Bitrix24 API` `FastAPI` `Telegram Bots`
 
-**Web:**  
-`React` `JavaScript (ES6+)` `Bootstrap`
-
-**Cloud & Tools:**  
-`Docker` `GitLab CI` `Jenkins` `AWS EC2/S3`
+**Web & DevOps:**  
+`React` `JavaScript (ES6+)` `Docker` `GitLab CI` `AWS (EC2/S3)` `Streamlit`
 
 ---
 
-### 📬 Connect
+### 📈 Currently Exploring
+- **Model Deployment:** Advanced FastAPI patterns and HuggingFace Spaces.
+- **MLOps:** Versioning data and models to ensure reproducibility.
+- **Edge AI:** Optimizing Computer Vision models for real-time performance.
 
-- 🌐 LinkedIn: **https://www.linkedin.com/in/timuryesm/**
-- 📧 Email: **timuryesm@gmail.com**
-- 🐙 GitHub: **github.com/timuryesm**
+---
 
-> Focused on building real, applied machine learning projects with clarity, rigor, and impact.
+### 📬 Connect with Me
+- **LinkedIn:** [timuryesm](https://www.linkedin.com/in/timuryesm/)
+- **Email:** [timuryesm@gmail.com](mailto:timuryesm@gmail.com)
+- **Portfolio:** *[Link to your new portfolio page once live]*
+
+> "Building applied machine learning projects with clarity, rigor, and real-world impact."
