@@ -7,6 +7,13 @@ I am a software engineer (York University B.Sc. CS) specializing in bridging the
 
 ### 🚀 Featured Projects
 
+#### 🏗️ [Architecture Design Assistant](https://github.com/timuryesm/arch-assistant)
+*A specialized AI tool for system design thinking — structured conversations, live diagrams, adversarial critique, and RAG-powered guidelines.*
+- **Tech:** Node.js, Express, Next.js, Anthropic Claude API, LangChain, Mermaid.js, Voyage embeddings, localStorage.
+- **Highlights:** Four specialized Claude system prompts (senior architect, diagram converter, technical writer, adversarial reviewer), LangChain LCEL chain composition, in-memory RAG pipeline with cosine similarity retrieval, session persistence without a database, four-panel UI with lifted state orchestration.
+- **Architecture:** Stateless Express backend with five API routes, Next.js frontend with localStorage session history, Voyage embeddings for semantic chunk retrieval from uploaded PDF guidelines.
+- **Key concepts:** Prompt engineering as product design, LLM statelessness and conversation management, multi-prompt AI systems, P0/P1/P2 adversarial design review, RAG with semantic search.
+
 #### 🐛 [Bug Fixer — Autonomous LLM PR Generator](https://github.com/timuryesm/bug-fixer)
 *An LLM-driven pipeline that reads GitHub issues, retrieves relevant code via FAISS, generates patches, validates them in a Docker sandbox, and opens pull requests autonomously.*
 - **Tech:** Python, OpenAI API (`gpt-4o-mini`, `text-embedding-3-small`), FAISS, Docker, GitHub REST API, pytest, GitHub Actions.
@@ -47,18 +54,19 @@ I am a software engineer (York University B.Sc. CS) specializing in bridging the
 ### 🛠️ Tech Stack
 
 **AI & Data Science:**  
-`Python` `PyTorch` `NumPy` `Pandas` `Scikit-Learn` `OpenCV` `OpenAI API` `FAISS` `Pydantic` `Matplotlib` `Plotly`
+`Python` `PyTorch` `NumPy` `Pandas` `Scikit-Learn` `OpenCV` `OpenAI API` `Anthropic Claude API` `LangChain` `FAISS` `Voyage embeddings` `Pydantic` `Matplotlib` `Plotly`
 
 **Backend & Automation:**  
-`Node.js` `PHP` `REST APIs` `Bitrix24 API` `GitHub API` `FastAPI` `SQLite` `pytest` `Telegram Bots`
+`Node.js` `Express` `PHP` `REST APIs` `Bitrix24 API` `GitHub API` `FastAPI` `SQLite` `pytest` `Telegram Bots`
 
 **Web & DevOps:**  
-`React` `JavaScript (ES6+)` `Docker` `GitLab CI` `GitHub Actions` `AWS (EC2/S3)` `Streamlit`
+`React` `Next.js` `JavaScript (ES6+)` `Docker` `GitLab CI` `GitHub Actions` `AWS (EC2/S3)` `Streamlit`
 
 ---
 
 ### 📈 Currently Exploring
-- **AI Agents & RAG:** Production patterns for retrieval-augmented LLM tooling — validation layers, evaluation harnesses, container-isolated execution.
+- **AI Systems Design:** Multi-prompt architectures, LangChain orchestration, and RAG pipelines for production AI tooling.
+- **LLM Engineering:** Prompt engineering as a product discipline — specialised prompts, output contracts, and adversarial evaluation.
 - **Model Deployment:** Advanced FastAPI patterns and HuggingFace Spaces.
 - **MLOps:** Versioning data and models to ensure reproducibility.
 - **Edge AI:** Optimizing Computer Vision models for real-time performance.
