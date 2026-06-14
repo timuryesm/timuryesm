@@ -33,11 +33,6 @@ I am a software engineer (York University B.Sc. CS) specializing in bridging the
 - **Highlights:** Features a live interactive dashboard, automated data extraction pipeline, and an MAE of ~2.8 wins.
 - **Links:** [Live Dashboard](https://nba-intensity-analysis-timuryesm.streamlit.app/) | [Project Presentation](https://timuryesm.github.io/nba-intensity-analysis/)
 
-#### 🩺 [GI Cancer Detection (Computer Vision Capstone)](https://github.com/timuryesm/gi-cancer-classification)
-*Deep Learning system for gastrointestinal pathology classification.*
-- **Tech:** PyTorch, Vision Transformers (ViT), CNNs, Transfer Learning.
-- **Highlights:** Solved extreme class imbalance using SMOTE/Oversampling; achieved high sensitivity/recall for medical diagnostic reliability.
-- **Focus:** Comparing architectural performance between traditional CNNs and modern Transformers.
 
 #### 📊 [Business Intelligence ML Capstone](https://github.com/timuryesm/ml-business-capstone)
 *End-to-end data science pipeline focusing on business use-case interpretations.*
