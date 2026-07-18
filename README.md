@@ -71,6 +71,6 @@ I am a software engineer (York University B.Sc. CS) specializing in bridging the
 ### 📬 Connect with Me
 - **LinkedIn:** [timuryesm](https://www.linkedin.com/in/timuryesm/)
 - **Email:** [timuryesm@gmail.com](mailto:timuryesm@gmail.com)
-- **Portfolio:** *[Link to your new portfolio page once live]*
+- **Portfolio:** *TBU*
 
 > "Building applied machine learning projects with clarity, rigor, and real-world impact."
