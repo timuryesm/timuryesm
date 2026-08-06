@@ -7,6 +7,14 @@ I am a software engineer (York University B.Sc. CS) specializing in bridging the
 
 ### 🚀 Featured Projects
 
+#### ✈️ [Travel Planner Agents](https://github.com/timuryesm/travel-planner-agents) — [**live demo**](https://travel-planner-agents-production.up.railway.app)
+*A multi-agent AI travel planner with a resumable wizard: nine specialized agents plan a trip from country to day-by-day itinerary, backed by a persistent state machine you can navigate, skip, and revise.*
+- **Tech:** Python, FastAPI, PostgreSQL, SQLAlchemy 2.x async, Alembic, Pydantic v2, Anthropic Claude API, React, Vite, Tailwind, Zustand, react-i18next, Docker.
+- **Highlights:** Hub-and-spoke trip model (one flight, one hotel, optional day-trips) replacing a design that asked unanswerable questions; a single `transition()` chokepoint for all wizard navigation with per-stage payload validation and cascade-invalidation on backward jumps; Markdown and PDF export of the confirmed itinerary; free-text plan edits returned as structured *operations* rather than a rewritten plan, so a hallucinated name fails one edit instead of corrupting the whole thing.
+- **Architecture:** Agents never call each other — they read and write one shared `TravelPlan`, and an adapter layer translates wizard commit rows into it, so the same agents serve both a CLI pipeline and the stepwise UI. Commit reading lives in exactly one module; the ORM never reaches an agent.
+- **Engineering decisions:** Live State Department advisories rather than model memory, with exact-name matching (so "Niger" never picks up "Nigeria"'s level) and ambiguity resolving to *no answer* instead of a coin flip. Realistic mock fallbacks are permanent production code — the flag-off path is the same code that runs on an API failure, so development exercises real degradation. Discovery stages surface 502s instead of empty lists that read as "nothing found".
+- **Deployed:** Single Docker image serving the API and the built frontend from one origin, on Railway with managed Postgres. Trilingual UI (EN / FR / RU).
+
 #### 🏗️ [Architecture Design Assistant](https://github.com/timuryesm/arch-assistant)
 *A specialized AI tool for system design thinking — structured conversations, live diagrams, adversarial critique, and RAG-powered guidelines.*
 - **Tech:** Node.js, Express, Next.js, Anthropic Claude API, LangChain, Mermaid.js, Voyage embeddings, localStorage.
@@ -52,16 +60,17 @@ I am a software engineer (York University B.Sc. CS) specializing in bridging the
 `Python` `PyTorch` `NumPy` `Pandas` `Scikit-Learn` `OpenCV` `OpenAI API` `Anthropic Claude API` `LangChain` `FAISS` `Voyage embeddings` `Pydantic` `Matplotlib` `Plotly`
 
 **Backend & Automation:**  
-`Node.js` `Express` `PHP` `REST APIs` `Bitrix24 API` `GitHub API` `FastAPI` `SQLite` `pytest` `Telegram Bots`
+`Node.js` `Express` `PHP` `REST APIs` `Bitrix24 API` `GitHub API` `FastAPI` `PostgreSQL` `SQLAlchemy` `Alembic` `SQLite` `pytest` `Telegram Bots`
 
 **Web & DevOps:**  
-`React` `Next.js` `JavaScript (ES6+)` `Docker` `GitLab CI` `GitHub Actions` `AWS (EC2/S3)` `Streamlit`
+`React` `Next.js` `Vite` `Tailwind CSS` `JavaScript (ES6+)` `Docker` `GitLab CI` `GitHub Actions` `AWS (EC2/S3)` `Railway` `Streamlit`
 
 ---
 
 ### 📈 Currently Exploring
-- **AI Systems Design:** Multi-prompt architectures, LangChain orchestration, and RAG pipelines for production AI tooling.
-- **LLM Engineering:** Prompt engineering as a product discipline — specialised prompts, output contracts, and adversarial evaluation.
+- **AI Systems Design:** Multi-agent architectures, LangChain orchestration, and RAG pipelines for production AI tooling.
+- **LLM Engineering:** Prompt engineering as a product discipline — specialised prompts, output contracts, structured operations over free-form rewrites, and adversarial evaluation.
+- **Stateful AI Applications:** Persistent state machines for multi-step AI workflows — resumable sessions, cascade invalidation, and validation at the persistence boundary.
 - **Model Deployment:** Advanced FastAPI patterns and HuggingFace Spaces.
 - **MLOps:** Versioning data and models to ensure reproducibility.
 - **Edge AI:** Optimizing Computer Vision models for real-time performance.
